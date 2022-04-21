@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".SecondFragment">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="532dp"
+        android:layout_height="899dp"
+        android:src="@color/black"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
     <TextView
         android:id="@+id/textview_second"
         android:layout_width="wrap_content"
@@ -24,4 +32,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_second" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="103dp"
+        android:layout_height="99dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
