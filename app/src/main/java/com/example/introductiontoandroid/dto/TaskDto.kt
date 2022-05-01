@@ -1,6 +1,6 @@
 package com.example.introductiontoandroid.dto
 
-class TasksDto {
+class TaskDto {
     private var dueDate: String
     private var assignedTo: String
     private var status: String
